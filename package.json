@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "CLI for Shrt API",
   "main": "shrt.js",
-  "bin": "./bin/shrt",
+  "bin": {
+    "shrt": "./bin/shrt"
+  },
   "author": "Maxime Cattet <maximecattet@gmx.com>",
   "license": "MIT",
   "repository": {
